@@ -25,7 +25,6 @@ def main():
     # TODO: Print the total number of removed characters to stderr
     removed_count = input_text.count(char_to_remove)
     sys.stderr.write(str(removed_count))
-    # sys.stderr.write(f"Total of the character '{char_to_remove}' removed: {str(removed_count)}\n")
 
 if __name__ == "__main__":
     main()
